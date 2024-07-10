@@ -36,6 +36,7 @@ Para clonar o Stress Test:
 
 ```sh
 git clone https://github.com/gilbertom/go-cli-stress-test
+cd go-cli-stress-test
 ```
 
 ## Como Executar
@@ -59,7 +60,7 @@ docker run --rm stress-test-img ./stress-test-bin run \
 ## Informações geradas
 
   Exemplo de informações geradas em caso de sucesso:
-  ```json
+  ```
   Iniciando stress test...
   Parâmetros recebidos:
     URL        : http://google.com.br
